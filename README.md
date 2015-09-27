@@ -17,4 +17,4 @@ In this app i learn how to use twitter and facebook API’s, and some parameters
 In this app i only want to know how to use apple watch interface, and know some of their aspects.
 
 - Five APP - UIAlertView.
-this is a simple app to how to show a UIAlertView.
+This is a simple app to how to show a UIAlertView.
