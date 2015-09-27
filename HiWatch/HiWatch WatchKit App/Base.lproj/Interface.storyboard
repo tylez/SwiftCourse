@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HiWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="126" height="32" alignment="center" verticalAlignment="center" text="Press one Button" textAlignment="center" id="uU7-md-McT">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <button width="90" alignment="center" verticalAlignment="center" title="Hi Watch" id="9Cg-jy-BaJ">
+                            <color key="titleColor" red="0.47653467579999997" green="1" blue="0.3949934752" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="hiWatch" destination="AgC-eL-Hgc" id="dWT-ea-NwG"/>
+                            </connections>
+                        </button>
+                        <separator alignment="center" verticalAlignment="center" id="03p-WO-mBG"/>
+                        <button width="90" alignment="center" verticalAlignment="center" title="Learn Swift" id="gbs-pS-D3e">
+                            <color key="titleColor" red="0.47653467579999997" green="1" blue="0.3949934752" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="hiSwift" destination="AgC-eL-Hgc" id="2nK-OZ-rh8"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="myLabel" destination="uU7-md-McT" id="0It-cx-KaZ"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
