@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6252605E-0ACC-455A-A945-5A0CA05AD7A1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UIAlertView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A14DC87BB329FC1C198DE37D34D75CE331533E0F</key>
 		<string>https://github.com/tylez/SwiftCourse.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UIAlertView/UIAlertView.xcodeproj/project.xcworkspace</string>
+	<string>UIAlertView/UIAlertView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A14DC87BB329FC1C198DE37D34D75CE331533E0F</key>
